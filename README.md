@@ -5,14 +5,14 @@
 ShopMart is a web application developed using Spring Boot, a powerful and versatile framework for building Java-based enterprise applications. This project focuses on providing RESTful APIs for managing categories and products in an online shopping system.
 
 # Technologies Used
-Spring Boot: The core framework for building the application.
-Spring Data JPA and Hibernate: For seamless interaction with the relational database.
-REST Controllers: Handling HTTP requests and responses in a RESTful manner.
-Relational Database (RDB): Storing and managing data persistently.
-Server-Side Pagination: Enhancing performance by retrieving data in chunks.
-Annotation-based Configuration: Simplifying the configuration process without the need for XML files.
-Database Configuration
-Ensure that you have a relational database set up, and configure the database connection details in the application.properties file.
+* Spring Boot: The core framework for building the application.
+* Spring Data JPA and Hibernate: For seamless interaction with the relational database.
+* REST Controllers: Handling HTTP requests and responses in a RESTful manner.
+* Relational Database (RDB): Storing and managing data persistently.
+* Server-Side Pagination: Enhancing performance by retrieving data in chunks.
+* Annotation-based Configuration: Simplifying the configuration process without the need for XML files.
+* Database Configuration
+* Ensure that you have a relational database set up, and configure the database connection details in the application.properties file.
 
 # Database Configuration
 spring.datasource.url=jdbc:mysql://localhost:3306/shopmart
